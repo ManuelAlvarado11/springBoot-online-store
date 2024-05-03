@@ -5,11 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ManuelAlvarado11/ms-course-youtube.git
+          uri: https://github.com/ManuelAlvarado11/springBoot-online-store.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-          default-label: "master"
+          default-label: "main"
   security:
     user:
       name: root
